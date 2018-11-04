@@ -3,7 +3,7 @@ MAINTAINER David Goeke <dockerhub@waygate.org>
 
 ENV TERRAFORM_VERSION=0.11.9
 
-RUN apk add curl py-pip
+RUN apk add jq curl py-pip
 RUN pip install --upgrade pip
 RUN pip install awscli
 
